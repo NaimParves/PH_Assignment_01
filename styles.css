@@ -1,0 +1,20 @@
+.logo_signup{
+    display: flex;
+    justify-content:space-between;
+    margin: 0 auto;
+    align-items: center;
+    padding: 0 150px;
+    height: 151px;
+    width: 1140px;
+
+}
+.nav{
+}
+.btn-primary {
+    background-color: #4E47FF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
