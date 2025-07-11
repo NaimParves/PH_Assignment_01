@@ -2,11 +2,17 @@
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 100;
+  font-weight: 400;
   font-style: normal;
   font-size: 34px;
 }
-
+.inter-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: bold;
+  font-size: 34px;
+}
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -73,4 +79,26 @@
 }
 .text-content {
     width: 517px;
+}
+
+/* Productive User Styles */
+.stats-section {
+    margin: 0 auto;
+    margin-top: 116px;
+    width: 856px;
+    height: 206px;
+    padding: 50px 142px;
+}
+.stats-grid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.stat-item [class="value"]{
+    font-size: 97px;
+    color: #4E47FF;
+}
+.stat-item [class="label"] {
+    font-size: 24px;
+    color: #55545e;
 }
