@@ -2,11 +2,17 @@
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 100;
   font-style: normal;
   font-size: 34px;
 }
 
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
 
 .logo_signup{
     display: flex;
@@ -46,4 +52,25 @@
     max-height: 698px;
     width: 100%;
     background-image: url('image/Hero-bg.png');
+    background-size: cover;
+    background-position: center;    
+    background-repeat: no-repeat;
+}
+.action {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 200px;
+    padding: 0 141px;
+    gap: 220px;
+}
+.image-preview {
+    border-radius: 48px; 
+    overflow: hidden;
+}
+.secondary-color{
+    color: #55545e;
+}
+.text-content {
+    width: 517px;
 }
